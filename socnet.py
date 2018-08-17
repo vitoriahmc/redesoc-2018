@@ -96,7 +96,7 @@ def _build_node_trace(color):
         'x': [],
         'y': [],
         'text': [],
-        'textposition': node_label_position,
+        'textposition': 'middle center' if node_label_position == 'hover' else node_label_position,
         'hoverinfo': hoverinfo,
         'mode': mode,
         'marker': {
