@@ -7,7 +7,7 @@ from selenium import webdriver
 # Baixe o driver de https://sites.google.com/a/chromium.org/chromedriver/downloads
 # e extraia o executável. Coloque na constante abaixo o caminho completo para ele.
 
-DRIVER_PATH = r'caminho/completo/incluindo/o/proprio/executavel/nao/pare/na/pasta'
+DRIVER_PATH = r'D:\\Dropbox\\2018-2\\DiscRedeSoc\\Repositorio\\Encontro04\\dados\\chromedriver.exe'
 
 WINDOW_WIDTH = 1024
 WINDOW_HEIGHT = 768
