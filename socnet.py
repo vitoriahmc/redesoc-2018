@@ -234,6 +234,18 @@ def reset_edge_colors(g):
         g.edges[e[0], e[1]]['color'] = edge_color
 
 
+def set_circle_positions(g):
+    layout = networkx.circular_layout(g)
+
+    _set_layout(g, layout)
+
+
+def set_spring_positions(g):
+    layout = networkx.spring_layout(g)
+
+    _set_layout(g, layout)
+
+
 def reset_positions(g):
     layout = networkx.spring_layout(g)
 
